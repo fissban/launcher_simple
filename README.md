@@ -2,7 +2,7 @@
 
 Launcher para actualizar sus clientes de Lineage 2
 
-<img src="https://repository-images.githubusercontent.com/315950883/e64ec600-2f0b-11eb-9351-a972fdd42dbd"/>
+<img src="https://repository-images.githubusercontent.com/315958706/48a9c580-2f10-11eb-88e9-31e19e335d46"/>
 
 # ¿Como se usa?
 - carpeta <b>'/Launcher_c4_style/updater'</b> dentro de nuestro webhost con sus archivos...solo la carpeta <b>updater</b>.
