@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project Launcher_c4_style">
+    <!-- folder properties-->
+    <property name="dir.buildfile" location="build"/>
+    <property name="dir.workspace" location="${ant.file}/../.."/>
+	<property name="dir.jarfile" value="${dir.buildfile}"/>
+    <target name="create_run_jar">
+		<jar destfile="${dir.buildfile}/Launcher.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="main.Main"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="${dir.workspace}/Launcher_c4_style/bin"/>
+			<fileset dir="${dir.workspace}/Launcher_c4_style/libs"/>
+        	<zipfileset excludes="META-INF/*.SF" src="${dir.workspace}/Launcher_c4_style/libs/L2JAdminsManagers_jdk8.jar"/>
+		</jar>
+    </target>
+</project>

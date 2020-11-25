@@ -1,0 +1,37 @@
+body
+{
+    background-color: #FDFDFD;
+    font-family: Arial;
+}
+
+.titlen 
+{ 
+    color :#f37e01;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 0 10px 0;
+    display: table;
+}
+.textn 
+{
+    color: rgba(0,0,0);
+    color :white;
+    font-size: 9px;
+    min-height: 42px;
+    overflow: hidden;
+}
+.lermaisn
+{
+    color :#f37e01;
+}
+
+.imgn
+{
+    text-decoration: none;
+    color: inherit;
+    width: 80px;
+    height: 80px;
+    padding: 2px;
+    border: 1px solid rgba(0,0,0);
+    border-radius: 5px;
+}
